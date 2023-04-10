@@ -11,6 +11,7 @@ export function Header() {
           className="header__avatargithub"
           alt="Git Hub logo"
         />
+        <hr className="header__hr" />
       </header>
     </>
   );

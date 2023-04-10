@@ -1,0 +1,16 @@
+.edgelayer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+  height: 28vh;
+}
+
+/* .container__floor1 {
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 33vh;
+} */

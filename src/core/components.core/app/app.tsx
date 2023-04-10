@@ -1,3 +1,4 @@
+import { EdgeLayer } from "../edgelayer/edgelayer";
 import { Header } from "../header/header";
 import { InfoDisplay } from "../infodisplay/infodisplay";
 import "./app.css";
@@ -7,16 +8,13 @@ export default function App() {
     "https://firebasestorage.googleapis.com/v0/b/coders2023-finalproject.appspot.com/o/micv%2Favat_comp_sonrisa_color.png?alt=media&token=0b0b50cb-fe5b-4e7c-a796-bc69bd3b1b9e";
 
   return (
-    <div className="conteinseverything">
+    <>
       <Header></Header>
-      <hr className="container__hrup" />
       <main className="container__container">
-        <section className="container__floor3">
-          <article className="container__floor3contact">Contact</article>
-          <article className="container__floor3Technologies">
-            Technologies
-          </article>
-        </section>
+        <EdgeLayer
+          firstElement={"Contact"}
+          secondElement={"Technologies"}
+        ></EdgeLayer>
         <section className="container__floor2">
           <div className="container__floor2lang_exp">
             <article className="container__floor2lang, bubble">
@@ -46,13 +44,12 @@ export default function App() {
             </article>
           </div>
         </section>
-        <section className="container__floor1">
-          <article className="container__floor1hobbies">Hobbies</article>
-          <article className="container__floor1whoIam">Who I am</article>
-        </section>
+        <EdgeLayer
+          firstElement={"Hobbies"}
+          secondElement={"Who I am"}
+        ></EdgeLayer>
       </main>
-      <hr className="container__hrdown" />
       <InfoDisplay></InfoDisplay>
-    </div>
+    </>
   );
 }
