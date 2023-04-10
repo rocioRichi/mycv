@@ -55,28 +55,6 @@
 .container__avatargithub {
   height: 5vh;
 }
-/* .bubble {
-  display: block;
-  height: 90px;
-  width: 90px;
-  border-radius: 50%;
-  background-image: linear-gradient(
-    to right top,
-    #f9f0f5,
-    #f1dfee,
-    #e3cfea,
-    #d0c1e9,
-    #b6b5e9,
-    #b2b7ea,
-    #afb8eb,
-    #abbaeb,
-    #c2c8ee,
-    #d6d7f1,
-    #e8e7f4,
-    #f8f8f8
-  );
-  opacity: 0.5;
-} */
 
 .container__asideup {
   display: flex;
@@ -88,11 +66,14 @@
   width: 100vw;
   height: 25vh;
   justify-content: center;
-  /* border-style: dotted; */
+  width: 90%;
+  align-self: center;
+  border-style: dotted;
+  font-size: 0.9em;
 }
 
 .container__hrup {
-  margin-top: 2vh;
+  margin-bottom: 5vh;
   width: 25%;
   border-style: dotted;
   border-color: #546dcf;

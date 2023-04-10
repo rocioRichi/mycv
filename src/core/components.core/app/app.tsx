@@ -46,7 +46,8 @@ export default function App() {
           <div className="container__floor2softskil_studies">
             <article className="container__floor2softskill">Education</article>
             <article className="container__floor2studies">
-              Programing <br /> Exercise
+              Programming
+              <br /> Exercises
             </article>
           </div>
         </section>
@@ -56,7 +57,11 @@ export default function App() {
         </section>
       </main>
       <hr className="container__hrdown" />
-      <aside className="container__asidedown"></aside>
+      <aside className="container__asidedown">
+        <span className="container__typewritereffect">
+          ¿Qué deseas saber sobre mí..?
+        </span>
+      </aside>
     </div>
   );
 }
