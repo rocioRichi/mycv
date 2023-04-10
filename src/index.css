@@ -7,12 +7,22 @@
 body {
   display: flex;
   justify-content: center;
-  font-family: "Roboto Mono", monospace;
+  font-family: "Handlee", cursive;
+  font-size: xx-large;
+  color: #03041b;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding-top: 2em;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+:hover {
+  color: #0f1890;
+}
+
+:not(a) {
+  color: rgb(28, 28, 131);
 }
