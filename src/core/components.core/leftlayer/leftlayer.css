@@ -1,0 +1,9 @@
+.leftlayer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 33vh;
+}
+.leftlayer__up {
+  align-self: center;
+}

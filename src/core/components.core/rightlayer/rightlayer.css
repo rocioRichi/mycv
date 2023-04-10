@@ -1,0 +1,12 @@
+.rightlayer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 33vh;
+}
+.rightlayer__up {
+  align-self: center;
+}
+.rightlayer__down {
+  display: flex;
+}

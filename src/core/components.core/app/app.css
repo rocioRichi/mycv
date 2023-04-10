@@ -9,32 +9,10 @@
   height: 50vh;
 }
 
-.container__floor2 {
+.middlelayer {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 100vw;
   height: 28vh;
-}
-
-.container__floor2lang_exp {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  height: 33vh;
-}
-.container__floor2stage {
-  display: flex;
-  align-items: center;
-  height: 33vh;
-}
-.container__floor2softskil_studies {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  height: 33vh;
-}
-
-.avatarimage {
-  width: 20vw;
 }
