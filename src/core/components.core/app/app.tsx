@@ -1,3 +1,4 @@
+import { Header } from "../header/header";
 import "./app.css";
 
 export default function App() {
@@ -8,12 +9,7 @@ export default function App() {
     "https://firebasestorage.googleapis.com/v0/b/coders2023-finalproject.appspot.com/o/micv%2FRecurso%204.svg?alt=media&token=eaed496c-e114-41f7-ab0c-9b4191bc6003";
   return (
     <div className="conteinseverything">
-      <aside className="container__asideup">Rocio Ricciardiello</aside>
-      <img
-        src={urlBlueGitHub}
-        className="container__avatargithub"
-        alt="Rocio`s Avatar"
-      />
+      <Header></Header>
       <hr className="container__hrup" />
       <main className="container__container">
         <section className="container__floor3">

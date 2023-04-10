@@ -1,13 +1,12 @@
 .header {
-  min-height: 10vh;
-  margin-block-start: 1em;
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+  justify-content: center;
 }
-.saludo {
-  color: grey;
-}
-.header__wellcome {
-  display: inline;
+
+.header__avatargithub {
+  height: 5vh;
 }

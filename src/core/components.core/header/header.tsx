@@ -1,20 +1,16 @@
-import { useSelector } from "react-redux";
-import { Link } from "react-router-dom";
-import { RootState } from "../../../store/store";
 import "./header.css";
 export function Header() {
-  const initials = useSelector(
-    (state: RootState) => state.users.userLogged.firstName
-  );
-
+  const urlBlueGitHub =
+    "https://firebasestorage.googleapis.com/v0/b/coders2023-finalproject.appspot.com/o/micv%2FRecurso%204.svg?alt=media&token=eaed496c-e114-41f7-ab0c-9b4191bc6003";
   return (
     <>
       <header className="header">
-        <Link className="header__wellcome" to={"/login"}>
-          Wellcome to my world
-        </Link>
-
-        <p className="saludo">{initials}</p>
+        Rocio Ricciardiello
+        <img
+          src={urlBlueGitHub}
+          className="header__avatargithub"
+          alt="Git Hub logo"
+        />
       </header>
     </>
   );
