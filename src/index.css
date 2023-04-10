@@ -9,20 +9,22 @@ body {
   justify-content: center;
   font-family: "Handlee", cursive;
   font-size: xx-large;
-  color: #03041b;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding-top: 1em;
+  color: rgb(57, 28, 134);
 }
-
+a {
+  color: rgb(57, 28, 134);
+  text-decoration: none;
+}
+:visited {
+  color: rgb(57, 28, 134);
+}
+:hover {
+  color: rgb(124, 99, 186);
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
-:hover {
-  color: #0f1890;
-}
-
-:not(a) {
-  color: rgb(28, 28, 131);
 }
