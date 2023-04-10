@@ -1,12 +1,11 @@
 import { Header } from "../header/header";
+import { InfoDisplay } from "../infodisplay/infodisplay";
 import "./app.css";
 
 export default function App() {
   const urlAvatar =
     "https://firebasestorage.googleapis.com/v0/b/coders2023-finalproject.appspot.com/o/micv%2Favat_comp_sonrisa_color.png?alt=media&token=0b0b50cb-fe5b-4e7c-a796-bc69bd3b1b9e";
 
-  const urlBlueGitHub =
-    "https://firebasestorage.googleapis.com/v0/b/coders2023-finalproject.appspot.com/o/micv%2FRecurso%204.svg?alt=media&token=eaed496c-e114-41f7-ab0c-9b4191bc6003";
   return (
     <div className="conteinseverything">
       <Header></Header>
@@ -53,11 +52,7 @@ export default function App() {
         </section>
       </main>
       <hr className="container__hrdown" />
-      <aside className="container__asidedown">
-        <span className="container__typewritereffect">
-          ¿Qué deseas saber sobre mí..?
-        </span>
-      </aside>
+      <InfoDisplay></InfoDisplay>
     </div>
   );
 }

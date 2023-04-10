@@ -1,0 +1,10 @@
+.infodisplay {
+  display: flex;
+  width: 100vw;
+  height: 25vh;
+  justify-content: center;
+  width: 90%;
+  align-self: center;
+  border-style: dotted;
+  font-size: 0.9em;
+}
