@@ -2,7 +2,9 @@ import "./infodisplay.css";
 export function InfoDisplay() {
   return (
     <>
-      <div className="infodisplay">¿Qué deseas saber sobre mí..?</div>
+      <section className="infodisplay">
+        <div className="infodisplay__box">¿Qué deseas saber sobre mí?</div>
+      </section>
     </>
   );
 }
