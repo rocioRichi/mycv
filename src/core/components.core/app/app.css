@@ -1,7 +1,3 @@
-.conteinseverything {
-  display: flex;
-  flex-direction: column;
-}
 .container__container {
   display: flex;
   flex-direction: column;
