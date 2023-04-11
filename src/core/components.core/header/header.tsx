@@ -10,7 +10,7 @@ export function Header() {
   return (
     <>
       <header className="header">
-        <Link to={"/App"}>Rocio Ricciardiello</Link>
+        <Link to={"/"}>Rocio Ricciardiello</Link>
 
         <img
           onClick={handleClick}

@@ -12,17 +12,17 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding-top: 1em;
-  color: rgb(57, 28, 134);
+  color: rgb(0, 0, 0);
 }
 a {
-  color: rgb(57, 28, 134);
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 :visited {
-  color: rgb(57, 28, 134);
+  color: rgb(33, 33, 33);
 }
 :hover {
-  color: rgb(124, 99, 186);
+  color: rgb(33, 33, 33);
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

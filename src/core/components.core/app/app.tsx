@@ -1,5 +1,5 @@
+import AppRouter from "../approuter/approuter";
 import { Header } from "../header/header";
-import { InfoDisplay } from "../infodisplay/infodisplay";
 import { Navmenu } from "../navmenu/navmenu";
 import "./app.css";
 
@@ -10,7 +10,12 @@ export default function App() {
       <nav className="container__container">
         <Navmenu></Navmenu>
       </nav>
-      <InfoDisplay></InfoDisplay>
+      <section className="infodisplay">
+        <div className="infodisplay__box">
+          <AppRouter></AppRouter>
+        </div>
+      </section>
+      ;
     </>
   );
 }
