@@ -10,7 +10,12 @@ export default function App() {
       <nav className="container__container">
         <Navmenu></Navmenu>
       </nav>
-      <AppRouter></AppRouter>
+      <section className="infodisplay">
+        <div className="infodisplay__box">
+          <AppRouter></AppRouter>
+        </div>
+      </section>
+      ;
     </>
   );
 }

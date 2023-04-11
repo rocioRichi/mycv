@@ -4,3 +4,17 @@
   width: 50vw;
   height: 50vh;
 }
+.infodisplay {
+  display: flex;
+  justify-content: space-around;
+}
+
+.infodisplay__box {
+  display: flex;
+  height: 25vh;
+  justify-content: center;
+  width: 90%;
+
+  border-style: dotted;
+  font-size: 0.9em;
+}
