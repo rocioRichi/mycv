@@ -4,11 +4,3 @@
   width: 50vw;
   height: 50vh;
 }
-
-.middlelayer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100vw;
-  height: 28vh;
-}
