@@ -1,7 +1,12 @@
 .edgelayer {
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   width: 100vw;
   height: 28vh;
+  background-color: conic-gradient(red 0deg, yellow 120deg, green 240deg);
+}
+.edgelayer__up {
+  display: flex;
 }
