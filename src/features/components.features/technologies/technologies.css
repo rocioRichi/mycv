@@ -1,0 +1,9 @@
+.technologies {
+  display: flex;
+  flex-direction: row;
+}
+.technologies__ul {
+  font-size: medium;
+  padding: 0.5em;
+  list-style: none;
+}

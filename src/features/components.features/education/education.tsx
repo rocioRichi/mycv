@@ -19,7 +19,7 @@ export function Education() {
           Sevilla
         </li>
         <li>
-          2007.09 - 2009.06 Oficios Ténicos, Técnico Superior en{" "}
+          2007.09 - 2009.06 Oficios Ténicos, Técnico Superior en
           <b>Madera y Mueble</b>
           IES Ricardo Bernardo, Solares
         </li>
