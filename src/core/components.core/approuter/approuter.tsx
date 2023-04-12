@@ -1,12 +1,12 @@
 import { Route, Routes } from "react-router-dom";
-import Register from "../../../features/components.features/register.form/register.form";
+import Contact from "../../../features/components.features/contactform/contactform";
 import { InfoDisplay } from "../infodisplay/infodisplay";
 
 export function AppRouter() {
   return (
     <Routes>
       <Route path="/" element={<InfoDisplay />}></Route>
-      <Route path="/contact" element={<Register />}></Route>
+      <Route path="/contact" element={<Contact />}></Route>
     </Routes>
   );
 }

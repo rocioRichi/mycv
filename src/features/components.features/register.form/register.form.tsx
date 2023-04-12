@@ -50,7 +50,7 @@ export default function Register() {
           Email
         </label>
         <label className="registerlabel">
-          <input type="password" className="registerform-input" required />{" "}
+          <input type="password" className="registerform-input" required />
           Password
         </label>
         <label className="registerlabel">
@@ -68,7 +68,7 @@ export default function Register() {
             className="registerform-input"
             required
             name="email"
-          />{" "}
+          />
           Apellido
         </label>
         <label className="registerlabel">
