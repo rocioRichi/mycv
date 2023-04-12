@@ -1,5 +1,4 @@
 import { SyntheticEvent, useMemo } from "react";
-import { useNavigate } from "react-router-dom";
 import { InfoCompany } from "../../../models/infoCompany";
 import { useInfoCompany } from "../../hooks.features/use.infocompany";
 import { InfoCompanyRepo } from "../../repo.features/infocompany.repo/infocompany.repo";
