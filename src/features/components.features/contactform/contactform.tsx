@@ -17,8 +17,7 @@ export default function ContactForm() {
     const Company: Partial<InfoCompany> = {
       email: inputs[0].value,
       company: inputs[1].value,
-      attention: inputs[2].value,
-      telephone: inputs[3].value,
+      telephone: inputs[2].value,
     };
 
     userCompany(Company);
