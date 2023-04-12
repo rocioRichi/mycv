@@ -1,7 +1,5 @@
 import { EdgeLayer } from "../edgelayer/edgelayer";
-import { LeftLayer } from "../leftlayer/leftlayer";
 import { Picture } from "../picture/picture";
-import { RightLayer } from "../rightlayer/rightlayer";
 // import { Link, useNavigate } from "react-router-dom";
 import "./navmenu.css";
 
@@ -11,27 +9,33 @@ export function Navmenu() {
       <EdgeLayer
         firstElement={"Contact"}
         secondElement={"Technologies"}
-        navigateTo={"contact"}
+        firstEleGoTo={"contact"}
+        secondEleGotTo={"technologies"}
       ></EdgeLayer>
       <section className="middlelayer">
-        <LeftLayer
+        <EdgeLayer
           firstElement={"Language"}
           secondElement={"Working Experience"}
-        ></LeftLayer>
+          firstEleGoTo={"contact"}
+          secondEleGotTo={"technologies"}
+        ></EdgeLayer>
 
         <article>
           <Picture></Picture>
         </article>
 
-        <RightLayer
+        <EdgeLayer
           firstElement={"Education"}
           secondElement={`Programming  Exercise`}
-        ></RightLayer>
+          firstEleGoTo={"education"}
+          secondEleGotTo={"technologies"}
+        ></EdgeLayer>
       </section>
       <EdgeLayer
         firstElement={"Hobbies"}
         secondElement={"Who I am"}
-        navigateTo={"contact"}
+        firstEleGoTo={"contact"}
+        secondEleGotTo={"technologies"}
       ></EdgeLayer>
     </>
   );

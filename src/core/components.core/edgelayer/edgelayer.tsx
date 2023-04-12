@@ -1,26 +1,24 @@
 import "./edgelayer.css";
 import { Link } from "react-router-dom";
+import { PropsLayer } from "../../../features/components.features/propstype/propstype";
 
-export type PropsEdgeLayer = {
-  firstElement: string;
-  secondElement: string;
-  navigateTo: string;
-};
-export function EdgeLayer(propsEdgeLayer: PropsEdgeLayer) {
+export function EdgeLayer(propsEdgeLayer: PropsLayer) {
   const slash = "/";
-  let gotoanotherpage = slash + propsEdgeLayer.navigateTo;
-  gotoanotherpage = propsEdgeLayer.navigateTo;
+  let firstElementpage = slash + propsEdgeLayer.firstEleGoTo;
+  let secondElementpage = slash + propsEdgeLayer.secondEleGotTo;
+
   return (
     <section className="edgelayer">
-      <Link to={gotoanotherpage}>
+      <Link to={firstElementpage}>
         <article className="edgelayer__up">
           {propsEdgeLayer.firstElement}
         </article>
       </Link>
-
-      <article className="edgelayerdown">
-        {propsEdgeLayer.secondElement}
-      </article>
+      <Link to={secondElementpage}>
+        <article className="edgelayerdown">
+          {propsEdgeLayer.secondElement}
+        </article>
+      </Link>
     </section>
   );
 }
