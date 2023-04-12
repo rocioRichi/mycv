@@ -8,15 +8,15 @@ export function Navmenu() {
     <>
       <EdgeLayer
         firstElement={"Contact"}
-        secondElement={"Language"}
+        secondElement={"Technologies"}
         firstEleGoTo={"contact"}
-        secondEleGotTo={"language"}
+        secondEleGotTo={"technologies"}
       ></EdgeLayer>
       <section className="middlelayer">
         <EdgeLayer
-          firstElement={"Technologies"}
+          firstElement={"Language"}
           secondElement={"Working Experience"}
-          firstEleGoTo={"technologies"}
+          firstEleGoTo={"contact"}
           secondEleGotTo={"technologies"}
         ></EdgeLayer>
 
@@ -28,7 +28,7 @@ export function Navmenu() {
           firstElement={"Education"}
           secondElement={`Programming  Exercise`}
           firstEleGoTo={"education"}
-          secondEleGotTo={"education"}
+          secondEleGotTo={"technologies"}
         ></EdgeLayer>
       </section>
       <EdgeLayer
