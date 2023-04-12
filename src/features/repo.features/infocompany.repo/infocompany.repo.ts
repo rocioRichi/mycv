@@ -1,18 +1,13 @@
 import { currentUrl } from "../../../config.renderorlocal";
 import { InfoCompany } from "../../../models/infoCompany";
-import { ServerResponse } from "../../../models/users";
+import { ServerResponse } from "../../../models/infoCompany";
 import { RepoInfoCompany } from "./infocompany.repo.interface";
 export class InfoCompanyRepo implements RepoInfoCompany<ServerResponse> {
   url: string;
   constructor() {
     this.url = currentUrl;
   }
-  create(
-    companyInfo: Partial<InfoCompany>,
-    urlPath: string
-  ): Promise<ServerResponse> {
-    throw new Error("Method not implemented.");
-  }
+
   async createCompany(
     newCompany: Partial<InfoCompany>,
     urlExtraPath: string

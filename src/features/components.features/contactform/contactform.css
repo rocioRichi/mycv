@@ -1,0 +1,48 @@
+.contactform {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-radius: 15px;
+  font-size: medium;
+  padding-top: 1em;
+}
+
+.contactform__input {
+  border: 1px solid #c0b9b9;
+  border-radius: 5px 5px 5px 5px;
+  color: #000000;
+  font-size: 0.8em;
+  padding: 3px;
+  margin: 0.2em;
+  width: 15em;
+}
+.contactform__button {
+  all: unset;
+  color: black;
+  border: 1px;
+  border: solid;
+  border-color: black;
+}
+
+.contactform__label_buttom {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  background-color: #b8b6b60e;
+}
+input:focus {
+  outline: #000000;
+  border-color: #595b5d;
+  box-shadow: 0 0 5px #e2e3e5;
+}
+
+.contactform__buttom {
+  border-radius: 6px;
+  border: none;
+  display: inline-block;
+  font-family: "Handlee", cursive;
+  font-size: large;
+}
+.contactform__willbesent {
+}
