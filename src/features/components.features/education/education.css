@@ -1,0 +1,15 @@
+.education {
+  display: flex;
+  flex-direction: row;
+}
+.education__ul {
+  font-size: medium;
+  padding: 0.5em;
+  list-style: none;
+}
+.education__ul li {
+  padding: 0.2em;
+}
+.education__bold {
+  font-weight: 400;
+}

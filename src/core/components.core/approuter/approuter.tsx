@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import Contact from "../../../features/components.features/contactform/contactform";
-import { Education } from "../../../features/components.features/education/education";
+
 import { Technologies } from "../../../features/components.features/technologies/technologies";
 import { InfoDisplay } from "../infodisplay/infodisplay";
 
