@@ -16,7 +16,7 @@ export function Navmenu() {
         <EdgeLayer
           firstElement={"Language"}
           secondElement={"Working Experience"}
-          firstEleGoTo={"contact"}
+          firstEleGoTo={"language"}
           secondEleGotTo={"technologies"}
         ></EdgeLayer>
 

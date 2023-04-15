@@ -14,7 +14,9 @@ body {
   padding-top: 1em;
   color: rgb(0, 0, 0);
 }
-
+p {
+  font-size: medium;
+}
 a {
   color: rgb(0, 0, 0);
   text-decoration: none;
