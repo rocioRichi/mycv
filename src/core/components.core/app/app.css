@@ -11,7 +11,6 @@
 
 .infodisplay__box {
   display: flex;
-
   justify-content: center;
   width: 90%;
   border-style: dotted;
