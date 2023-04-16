@@ -1,0 +1,8 @@
+.hobbies__pics {
+  display: flex;
+}
+.hobbies__pics img {
+  padding: 0.5em;
+  width: 80vw;
+  width: 70px;
+}

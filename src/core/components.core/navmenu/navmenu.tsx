@@ -1,6 +1,5 @@
 import { EdgeLayer } from "../edgelayer/edgelayer";
 import { Picture } from "../picture/picture";
-// import { Link, useNavigate } from "react-router-dom";
 import "./navmenu.css";
 
 export function Navmenu() {
@@ -34,7 +33,7 @@ export function Navmenu() {
       <EdgeLayer
         firstElement={"Hobbies"}
         secondElement={"Who I am"}
-        firstEleGoTo={"contact"}
+        firstEleGoTo={"hobbies"}
         secondEleGotTo={"technologies"}
       ></EdgeLayer>
     </>
