@@ -1,12 +1,17 @@
-// src/components/PinkDevCorner.jsx
 import "./pinkdevcorner.css";
-
-import "../../../assets/corner.png"; // o añade los estilos aquí mismo si prefieres
+import corner from "../../../assets/corner.png";
 
 function PinkDevCorner() {
   return (
     <div className="pinkdev-corner">
-      <img src="corner.png" alt="ThePinkDev Heaven" />
+      <a
+        href="https://thepinkdev.es"
+        title="Volver a la landing"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src={corner} alt="Logo ThePinkDev" />
+      </a>
     </div>
   );
 }
